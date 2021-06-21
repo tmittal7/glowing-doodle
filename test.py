@@ -32,7 +32,7 @@ print(chain_st)
 # print(sample2)
 sampler_exact = dimod.ExactSolver()
 response = sampler_exact.sample_ising(Hdict,Jdict)
-print(response)
+# print(response)
 
 
 # dwave.inspector.show(sample2)
